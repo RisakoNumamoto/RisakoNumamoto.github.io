@@ -1,0 +1,150 @@
+/*
+Selector {
+    property: value;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+.home {
+    background-image: url(totoro.png);
+    background-repeat: no-repeat;
+    background-size: 65% 100%;
+    background-position: right top, left top;
+
+    height: 650px;
+}
+.note_wrap{
+    background: #fff;
+    padding: 1em 2em;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.7);
+  }
+  .note{
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0) 97%,
+        #ddd 97%,
+        #ddd 100%
+      );
+    background-size:100% 2em;
+    line-height:2;
+  }
+  .note p{
+    margin-bottom:2em;
+  }
+
+.adj {
+    padding-top: 70px;
+}
+.intro{
+    float: left;
+    width: 35%;
+    height: 650px;
+    background-color: #9ad5f9;
+}
+.about {
+    padding-top: 90px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    height: 600px;
+}
+.portfolio {
+    padding-top: 60px;
+    color: #000000;
+    text-align: center;
+    background-color:#9ad5f9;
+    height: 600px;
+}
+.contact {
+    padding-top: 90px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    height: 500px;
+}
+.icons {
+    text-align: left;
+    line-height: 25px;
+}
+
+.icon-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-1{
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .python{
+
+  }
+  .java{
+
+  }
+  .c-plus-plus{
+
+  }
+  .javascript{
+
+  }
+  .html{
+
+  }
+  .css{
+
+  }
+  .react{
+
+  }
+  .postgressql{
+
+  }
+  img { 
+	max-width: 100%;
+	}
+    img.thumbnail { 
+	width: 100px;
+	height: 70px;
+	}
+  .portfolio1{
+
+  }
+  .container {
+    flex-direction: row;
+  }
+
+/* Navigation bar*/
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
